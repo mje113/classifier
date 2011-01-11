@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
   s.email       = ["mike@urlgonomics.com"]
   
   s.required_rubygems_version = ">= 1.3.6"
+  
+  s.add_dependency "fast-stemmer"
  
   s.files        = Dir.glob("{bin,lib,test}/**/*") + %w(LICENSE README Rakefile)
   s.executables  = ['bayes.rb','summarize.rb']
