@@ -9,6 +9,9 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["mike"]
   s.email       = ["mike@urlgonomics.com"]
+  s.summary     = "Stuff"
+  s.description = "Stuff"
+  
   
   s.required_rubygems_version = ">= 1.3.6"
  
